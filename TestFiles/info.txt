@@ -1,0 +1,35 @@
+The following compression and decompress time are from my personal computer:
+
+PROVIDED FILE:
+
+approximate compression time:
+book: 2.31 seconds
+dan.bmp: 1.72 seconds
+music.mp3: 1.61 seconds
+music.wav: 2.77 seconds
+
+approximate decompression time:
+book.txt.huf: 4.91 seconds
+dan.bmp.huf: 3.44 seconds
+music.mp3.huf: 2.99 seconds
+music.wav.huf: 5.31 seconds
+
+
+PERSONAL FILE:
+
+approximate compression time:
+megaman8bit.jpg: 0.065 seconds
+wallpaper1.jpg: 1.08 seconds
+cameraImage.jpeg: 18.13 seconds
+
+approximate decompression time:
+megaman8bit.jpg.huf: 0.11 seconds
+wallpaper1.jpg.huf: 1.95 seconds
+cameraImage.jpeg.huf:  33.95 seconds
+
+
+observation: 
+1. compression and decompression time varies everytime
+2. decompression time takes longer than compression time both personal and provided files
+3. as the file size get larger, time grows alot
+4. camera image compression and decompression is significantly higher than the provided images and images downloaded from internet
