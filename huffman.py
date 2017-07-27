@@ -1,5 +1,6 @@
 """
 Code for compressing and decompressing using Huffman compression.
+created by Jianzhong(Max) You and Professor Heap
 """
 
 from nodes import HuffmanNode, ReadNode
